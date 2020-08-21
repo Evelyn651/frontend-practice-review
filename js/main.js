@@ -39,3 +39,7 @@ let lostDollar = 50;
 
 gainedDollar++;
 lostDollar--;
+
+//working with concatenation
+let favoriteAnimal = "Elephant";
+console.log("My favorite animal is: " + favoriteAnimal);
