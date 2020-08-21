@@ -49,3 +49,11 @@ let myName = "Evelyn";
 let myCity = "Miami";
 
 console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
+
+//practicing with typeof
+let newVariable = "Playing around with typeof.";
+
+console.log(typeof newVariable);
+
+newVariable = 1;
+console.log(newVariable);
