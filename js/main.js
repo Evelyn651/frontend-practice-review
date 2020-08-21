@@ -31,3 +31,11 @@ console.log("The value of levelUp after mathematical assignment: ", levelUp);
 console.log("The value of powerLevel after mathematical assignment: ", powerLevel);
 console.log("The value of multipyMe after mathematical assignment: ", multiplyMe);
 console.log("The value of quarterMe after mathematical assignment: ", quarterMe);
+
+//working with the increment and decrement operators
+
+let gainedDollar = 3;
+let lostDollar = 50;
+
+gainedDollar++;
+lostDollar--;
