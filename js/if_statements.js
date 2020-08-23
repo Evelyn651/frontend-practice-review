@@ -41,3 +41,11 @@ if (favoritePhrase) {
 } else {
     console.log('This string is definitely empty.');
 }
+
+let tool = "";
+
+tool = "marker";
+
+let writingUtensil = tool || "pen";
+
+console.log(`The ${writingUtensil} is mightier than the sword.`);
