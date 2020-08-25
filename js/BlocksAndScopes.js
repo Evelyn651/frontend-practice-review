@@ -11,8 +11,11 @@ let galaxy = 'The Milky Way';
 let stars = 'North Star';
 
 function callMyNightSky(){
+    stars = 'Sirius';
     return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
 }
+console.log(callMyNightSky());
+console.log(stars);
 
 //block scope practice
 function logVisibleLightWaves(){
@@ -22,3 +25,4 @@ function logVisibleLightWaves(){
 
 logVisibleLightWaves();
 console.log(lightWaves);//not accessible because it was declared within the function scope
+
