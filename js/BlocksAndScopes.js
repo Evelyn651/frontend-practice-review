@@ -5,3 +5,11 @@ function logCitySkyline(){
     return 'The stars over the ' + skyscraper + ' in ' + city;
     console.log(logCitySkyline());
 }
+
+let satellite = 'The Moon';
+let galaxy = 'The Milky Way';
+let stars = 'North Star';
+
+function callMyNightSky(){
+    return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
+}
