@@ -1,24 +1,24 @@
 let sale = true;
 // sale = false;
-if(sale){
+if (sale) {
     console.log("Time to buy!");
-}else{
+} else {
     console.log("Time to wait for a sale.");
 }
 
 let hungerLevel = 7;
 
-if(hungerLevel > 7){
+if (hungerLevel > 7) {
     console.log("Time to eat!");
-}else{
+} else {
     console.log("We can eat later!");
 }
 
 let mood = "sleepy";
 let tirednessLevel = 6;
-if(mood === "sleepy" && tirednessLevel > 8){
+if (mood === "sleepy" && tirednessLevel > 8) {
     console.log("time to sleep");
-}else{
+} else {
     console.log("not bed time yet");
 }
 
@@ -67,14 +67,35 @@ favoritePhrase === "Love That!" ? console.log("I love that!") : console.log("I d
 
 let season = 'summer';
 
-if(season === 'spring'){
+if (season === 'spring') {
     console.log('It\'s spring! The trees are budding!');
-} else if(season === 'winter'){
+} else if (season === 'winter') {
     console.log('It\'s winter! Everything is covered in snow.');
-} else if(season === 'fall'){
+} else if (season === 'fall') {
     console.log('It\'s fall! Leaves are falling!');
-} else if(season === 'summer'){
+} else if (season === 'summer') {
     console.log('It\'s sunny and warm because it\'s summer!');
 } else {
     console.log('Invalid season.');
+}
+
+//switch case practice
+let athleteFinalPosition = 'first place';
+
+switch (athleteFinalPosition) {
+    case 'first place' :
+        console.log('You get the gold medal!');
+        break;
+
+    case 'second place' :
+        console.log('You get the silver medal!');
+        break;
+
+    case 'third place' :
+        console.log('You get the bronze medal!');
+        break;
+
+    default:
+        console.log('No medal awarded.');
+        break;
 }
