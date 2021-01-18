@@ -4,8 +4,14 @@
 body{
     margin: 0;
 }
+
+ul{
+    padding: 0 0 0 998px;
+}
+
 #navbar li{
     display: inline-flex;
+    flex: inherit;
     padding: 5px 10px;
     /*color: cadetblue;*/
     list-style: none;
