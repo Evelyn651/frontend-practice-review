@@ -1,0 +1,28 @@
+*{
+    background-color: #DED6D1;
+}
+body{
+    margin: 0;
+}
+#navbar li{
+    display: inline-flex;
+    padding: 5px 10px;
+    /*color: cadetblue;*/
+    list-style: none;
+}
+
+a{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aliceblue;
+    font-size: larger;
+}
+
+.intro{
+    /*padding: 0;*/
+    margin: 0;
+    border: solid 2px darkblue;
+}
